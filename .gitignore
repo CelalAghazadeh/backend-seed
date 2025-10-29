@@ -1,0 +1,48 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build output
+dist/
+coverage/
+.out/
+.cache/
+
+# Logs & runtime data
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.idea/
+.vscode/
+*.sw?
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+reports/
+junit.xml
+.tap
+.nyc_output/
+
+# Docker
+*.tar
+# Optional: ignore local Docker volumes
+docker-data/
+
+# OS
+*.bak
+*.tmp
+*.old
